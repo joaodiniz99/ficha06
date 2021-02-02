@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+/*
+EX 4.8
+.flex-container {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-content: center;
+    height: 35vh;
+    width: 50vw;
+}
+.flex-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+.verde {
+    background-color: green;
+}
+.amarelo {
+    background-color: yellow;
+}
+.vermelho {
+    background-color: red;
+}
+*/
+
+/*
+EX 4.9
+*/
+.flex-container {
+    display: flex;
+    flex-flow: column-reverse wrap;
+    height: 35vh;
+    width: 25vw;
+}
+.flex-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+.verde {
+    order: 2;
+    justify-self: flex-end;
+    background-color: green;
+}
+.amarelo {
+    order: 1;
+    justify-self: flex-start;
+    background-color: yellow;
+}
+.vermelho {
+    order: 2;
+    justify-self: flex-end;
+    background-color: red;
+}
